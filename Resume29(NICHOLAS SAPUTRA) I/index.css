@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 790px;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #cfc9c9;
+  display: grid;
+  grid-template-rows: 15% 28% 1fr;
+  line-height: 22px;
+  font-family: PT Serif;
+  font-size: 14.4px;
+}
+.first-div,.third-div{
+  background-color: #28282d;
+}
+.second-div{
+  background-color: #161719;
+}
+.first-div,.second-div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 45px;
+  color: #dfdddd;
+}
+
+.third-div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 0px;
+  color: #c4c4c4;
+}
+.third-one{
+  color: #dfdddd;
+}
+.contact{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding-top: 159px;
+}
+.work .number{
+  display: grid;
+  grid-template-columns: 18% 1fr;
+}
+.work .num{
+  color: #d4b955;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+}
+.education .number{
+  display: grid;
+  grid-template-columns: 16% 1fr;
+}
+.education .num{
+  color: #d4b955;
+  font-size: 16px;
+  font-weight: bold;
+}
+.header-data{
+  padding: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fname,.lname{
+  font-size: 47px;
+  color: aliceblue;
+}
+.fname{
+  margin-bottom: 29px;
+}
+.post{
+  color: #d4b955;
+  font-size: 11px;
+  margin-top: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 2px;
+}
+.profile{
+  padding: 30px 0px 20px 40px;
+}
+.skills{
+  padding: 0 0 50px 60px;
+}
+.education{
+  padding: 15px 40px 0px 40px;
+  color: #dfdddd;
+}
+.work{
+  padding: 15px 20px 20px 55px;
+}
+.refer-data{
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  column-gap: 15px;
+}
+.refer-img{
+  width: 127px;
+  height: 117px;
+}
+.refer-img img{
+  width: 100%;
+  height: 100%;
+}
+h3{
+  transform: rotate(-90deg);
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 2px;
+} 
+.heading{
+  line-height: 34px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading-skills{
+  right: 50px;
+  bottom: -47px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading-work{
+  right: 70px;
+  bottom: -82px;
+}
+.heading-education{
+  right: 66px;
+  bottom: -75px;
+}
+.heading-refer{
+  right: 34px;
+  bottom: -49px;
+}
+.work-data,.edu-data,.refer-data{
+  margin-left: 15px;
+}
+.skill-data{
+  margin-left: 9px;
+}
+.bold{
+  font-weight: bold;
+  color: rgb(233, 231, 231);
+  margin-bottom: -1px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+.work-long-para,.edu-long-para{
+  margin-top: 10px;
+}
+.edu1,.edu2,.work1,.work2,.work3{
+margin-bottom: 30px;
+}
+.references{
+  position: relative;
+  left: 38px;
+  top: 58px;
+  color: #dfdddd;
+}
+.progrssbar{
+  width: 91%;
+  height: 6px;
+  background-color:rgb(211, 208, 208);
+  margin-bottom: 25px;
+  position: relative;
+  top: 9px;
+}
+.fill{
+  background-color:#d4b955;
+  height: 100%;
+}
+.fillprogess1{
+  width: 85%;
+}
+.fillprogess2{
+  width: 80%;
+}
+.fillprogess3{
+  width: 70%;
+}
+.fillprogess4{
+  width: 85%;
+}
+.fillprogess5{
+  width: 75%;
+}
+.fillprogess6{
+  width: 65%;
+}
+.skill-1{
+  display: grid;
+  grid-template-columns: 27% 1fr;
+  column-gap: 50px;
+}
+.skill-para{
+  text-align: right;
+}
+.con-name{
+  font-weight: bold;
+  color: rgb(233, 231, 231);
+  margin-bottom: 3px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.con-para{
+  margin-bottom: 17px;
+}
+.img{
+  width: 280px;
+  height: 264px;
+  position: absolute;
+  top: 44px;
+  right: 365px;
+  /* right: 0px; */
+}
+.img img{
+  width: 100%;
+  height: 100%;
+}
+.refer-para1,.refer-para2,.refer-email{
+  margin-bottom: 4px;
+}
+.refer-para1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #eeecec;
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 780px;
+  height: 1224px;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #cfc9c9;
+  background-color: #3d507a;
+  line-height: 22px;
+  font-family: PT Serif;
+  font-size: 15px;
+  /* border: 2px solid black; */
+}
+.first-div{
+  display: grid;
+  grid-template-columns:55% 1fr;
+}
+.second-div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: #3d507a;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.second-one{
+  padding: 0px 50px 50px 30px;
+}
+.second-two{
+  padding-right: 30px;
+  color: #f3f2f1;
+}
+.first-one{
+  background-color: #3d507a;
+  padding: 40px 50px 50px 45px;
+  color: #f3f2f1;
+}
+.contact{
+  display: inline-block;
+}
+.first-two{
+  background-color: #f7ecd8;
+  padding: 55px 60px 20px 70px;
+  border-bottom-left-radius: 190px;
+  height: 92%;
+}
+
+.name-data{
+  /* border: 2px solid black; */
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  left: 15px;
+}
+.profile,.icon{
+  text-align: center;
+}
+.name{
+  font-size: 45px;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  color: #ebc88e;
+  text-align: center;
+  font-family: Oswald;
+}
+.post{
+  font-size: 15px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  color: #f3f2f1;
+  margin-top: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+i{
+  font-size: 40px;
+  color: #f17684;
+  margin-bottom: 21px;
+  margin-top: 18px;
+}
+.smalli{
+  font-size: 40px;
+  color: #f17684;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.profile-para{
+  margin-bottom: 70px;
+}
+.heading{
+  background-color: #ebc88e;
+  color: #2b1e28;
+  display: inline-block;
+  width: 300px;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  /* margin-bottom: 20px; */
+}
+.education-data{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 50px;
+}
+.edu1{
+  text-align: right;
+}
+.edu2,.expe2{
+  text-align: justify;
+}
+.head-education{
+  position: relative;
+  left: 18px;
+}
+.con-name{
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #2b1e28;
+  margin-bottom: 8px;
+  font-family: Oswald;
+}
+.para{
+  margin-bottom: 40px;
+}
+
+.experience-data{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 50px;
+  margin-top: 20px;
+}
+.expe1{
+  text-align: right;
+}
+.head-expe{
+  position: relative;
+  left: 50px;
+}
+.skill-data{
+  background-color: #dcd1bb;
+  width: 90%;
+  border-radius: 40px;
+  padding: 30px;
+  padding-left: 60px;
+  position: relative;
+  left: 30px;
+}
+.skilli{
+  position: relative;
+  left: 18px;
+}
+.head-skill{
+  position: relative;
+  left: 24px;
+  /* padding: 8px 20px 8px 20px; */
+}
+.progrssbar{
+  width: 95%;
+  height: 2px;
+  background-color: rgb(54, 53, 53);
+  margin-bottom: 25px;
+}
+.fill{
+  background-color: #28292b;
+  height: 100%;
+}
+.fillprogess1{
+  width: 85%;
+}
+.fillprogess2{
+  width: 80%;
+}
+.fillprogess3{
+  width: 70%;
+}
+.fillprogess4{
+  width: 85%;
+}
+.fillprogess5{
+  width: 80%;
+}
+.fillprogess6{
+  width: 93%;
+}
+.fillprogess7{
+  width: 77%;
+}
+.point{
+  width: 11px;
+  height: 11px;
+  background-color: #233253;
+  border-radius: 4px;
+  float: right;
+  position: relative;
+  bottom: 5px;
+}
+.skill-para{
+  margin-bottom: 15px;
+}
+.bold{
+  font-weight: bold;
+  font-size: 15.8px;
+  margin-bottom: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para1{
+  margin-bottom: 30px;
+}
+.para2{
+  margin-bottom: 50px;
+}

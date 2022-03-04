@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 750px;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #cfc9c9;
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  line-height: 24px;
+  font-family: PT Serif;
+  font-size: 14px;
+}
+.second-one{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 50px;
+  height: 233px;
+}
+.second-two{
+  background-color: #1e2831;
+  color: #dedde2;
+  margin-top: 28px;
+  padding: 10px 40px 10px 40px;
+}
+.second-three{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 80px;
+  background-color: #3f625b;
+  color: #d3e2e2;
+  padding: 0px 40px 10px 40px;
+  margin-top: 7px;
+}
+.education-data{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.expe1,.expe2,.expe3{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+}
+.img{
+  width: 100%;
+  height: 63.3%;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+}
+.name{
+  margin-bottom: 5px;
+  font-family:Arial, Helvetica, sans-serif;
+  /* margin-top: 10px; */
+}
+.top{
+  margin-top: 5px;
+}
+.heading-profile,.heading-education,.heading-work,.heading-skills,.heading-social,.heading-contact{
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading-contact{
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-size: 22px;
+}
+.bold{
+  margin-bottom: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14.7px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.expe-long-para{
+  margin-bottom: 32px;
+}
+.progrssbar{
+  width: 115%;
+  height: 10px;
+  background-color:#d3e2e2;
+  margin-bottom: 20px;
+  position: relative;
+  top: 9px;
+}
+.fill{
+  background-color:#1e2831;
+  height: 100%;
+}
+.fillprogess1{
+  width: 85%;
+}
+.fillprogess2{
+  width: 80%;
+}
+.fillprogess3{
+  width: 70%;
+}
+.fillprogess4{
+  width: 85%;
+}
+.skill-1{
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  column-gap: 20px;
+}
+.insta-icon{
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px 5px 5px 6px;
+}
+.facebook-icon{
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px 7.6px 5px 7.6px;
+}
+span{
+  margin-left: 10px;
+}
+.social-para{
+  margin-top: 1px;
+  margin-bottom: 15px;
+  position: relative;
+  left: 5px;
+}
+.header-name{
+  position: absolute;
+  top: 839px;
+  left: 12px;
+  transform: rotate(-90deg);
+  font-size: 58px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  word-spacing: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.post{
+  position: absolute;
+  top: 239px;
+  left: 227px;
+  transform: rotate(-90deg);
+  font-size: 25px;
+  /* font-weight: bold; */
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hedaer-span{
+  font-size: 30px;
+}
