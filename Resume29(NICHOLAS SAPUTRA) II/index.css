@@ -206,9 +206,6 @@ margin-bottom: 30px;
   grid-template-columns: 27% 1fr;
   column-gap: 50px;
 }
-.skill-para{
-  text-align: right;
-}
 .con-name{
   font-weight: bold;
   color: rgb(233, 231, 231);
