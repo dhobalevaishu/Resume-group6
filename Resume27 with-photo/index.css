@@ -20,12 +20,12 @@ body{
   font-family: PT Serif;
   font-size: 14px;
 }
-/* .second-one{
+.second-one{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   column-gap: 50px;
   height: 233px;
-} */
+}
 .second-two{
   background-color: #1e2831;
   color: #dedde2;
@@ -61,6 +61,9 @@ body{
   margin-bottom: 5px;
   font-family:Arial, Helvetica, sans-serif;
   /* margin-top: 10px; */
+}
+.top{
+  margin-top: 5px;
 }
 .heading-profile,.heading-education,.heading-work,.heading-skills,.heading-social,.heading-contact,.heading-lang,.heading-projects,.heading-Certi,.heading-references{
   font-size: 20px;
@@ -137,10 +140,10 @@ span{
 }
 .header-name{
   position: absolute;
-  top: 730px;
-  left: -227px;
+  top: 839px;
+  left: -294px;
   transform: rotate(-90deg);
-  font-size: 45px;
+  font-size: 58px;
   font-weight: bold;
   letter-spacing: 10px;
   word-spacing: 4px;
@@ -179,13 +182,6 @@ span{
 .date{
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.second-one{
-  padding: 30px 40px 0 0px;
-}
-.con-data{
-  display: grid;
-  grid-template-columns: 30% 37% 1fr;
 }
 .second-forth{
   display: none;
